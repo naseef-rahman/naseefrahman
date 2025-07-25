@@ -1,0 +1,30 @@
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+li:nth-child(2){
+    color: red;
+}
+    h1:active{
+        color: orange;
+    }
+    p::first-letter{
+        font-size: 2em;
+        font-weight: bold;
+        color: blue;
+        
+    }
+
+p{
+ color: blue hsl(hue, saturation, lightness);
+}
+body{
+ background-color: brown;
+ background-image: url(movies\ img.jpg);
+ background-repeat: repeat;
+
+
+
+
+}

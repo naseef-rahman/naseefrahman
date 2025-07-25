@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.d1{
+    width: 100%;
+overflow: hidden;
+white-space:nowrap ;
+position: relative;
+height: 50px;
+background-color:blue;
+color: white;
+}
+.d2{
+position: absolute;
+left: 100%;
+animation:slide 30s linear infinite;
+font-size: 24px;
+
+}
+@keyframes slide{
+  0%  {left:-100%
+}
+100%{
+    left:100%
+}
+
+
+}
+</style>
+
+
+</head>
+<body>
+   <div class="d1">
+    <div class="d2">cyber square</div>
+   </div> 
+</body>
+</html>

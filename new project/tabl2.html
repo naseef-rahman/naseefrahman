@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form>
+    <label for="fname">first name: </label><br>
+<input type="text" id="fname" name="fname"><br>
+<label for="lname">last name</label><br>
+<input type="text" id="lname" name="lname">
+<!-- <radio button -->
+<input type="checkbox" id="option1" name="toppings " value="cheese">
+<label for="optional" >cheese</label>
+<input type="checkbox" id="option2" name="toppings" value="pepperoni">
+<label for="option1">pepperoni</label><br>
+<!-- <checkbox -->
+ <input type="radio" id="optionA" name="payment" value="credit">
+ <label for="optionA" >credit card</label>
+ <input type="radio" id="optionB"  name="payment"   value="paypal">
+ <label for="optionB"> paypal</label>
+ <input type="radio" id="optionC" name="payment" value="bitcoin">
+ <label for="optionC">bitcoin</label><br>
+
+ <!-- number input -->
+  <label for="age">age:</label>
+  <input type="number" id="age" name="age" min="18" max="100" required><br>
+  <!-- urlinput  -->
+<label for="url">enter url:</label>
+<input type="url" placeholder="enter url" id="url" name="url" required>
+<button type="submit">submit</button><br>
+<!-- email input -->
+<label for="email">email:</label>
+<input type="email" placeholder="enter email" id="email" name="email>" required><br>
+<!-- fileuploader -->
+<label for="pic">first name</label>
+<input type="file" id="pic" name="pic" required><br>
+<!-- <password input-->
+ <label for="password">password</label>
+ <input type="password" name="password" id="password"><br>
+ address: <textarea rows="5" cols="25"></textarea>
+</form>
+<form> 
+    <h1 align="center">customer registration</h1>
+    <label for="customer name">customer name</label>
+    <input type="text" id="customer name" name="customer name" ><br>
+<br><br>
+
+    <label for="password">password</label>
+    <input type="password" id="password" name="password"><br>
+    <h5>gender</h5>
+    <input type="radio" id="option a" name="gender" value="male">
+    <label for option="a">male</label>
+    <input type="radio" id="optionb" name="gender" value="female">
+    <label for option="b"> female</label><br>
+    <br>
+    adress:<textarea rows="5" cols="40"></textarea><br>
+    <br>
+    <label for="telephone no">telephone</label>
+    <input type="number" id="telephone" name="telephone"><br>
+    <br>
+    <label for="hobbies">hobbies</label>
+    <input type="text" id="hobbie" name="hobbie"><br><br>
+
+    <select name="hobbies" id="hobbie" multiple size="3">
+<option value="reading" selected disabeled>reading</option>
+<option value="watching movie">watching movie</option>
+<option value="gaming">gaming</option><br>
+<br>
+<button type="submit ">submit</button>
+
+
+    </select>
+    
+</form>
+</body>
+</html>
